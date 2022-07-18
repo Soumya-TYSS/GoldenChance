@@ -20,6 +20,7 @@ public class SelectQueryTest {
 		System.out.println("added by chandu");
 		System.out.println("This statment is added by sanjay");
 		
+		System.out.println("Another statment added by sanjay");
 		//create query statemnet
 		Statement stat = conn.createStatement();
 		//execute the query
@@ -28,7 +29,7 @@ public class SelectQueryTest {
 		while(result.next())
 		{
 			System.out.println(result.getInt(1) + "\t" + result.getString(2));
-			System.out.println("updation by divya..");
+
 		}
 		}
 		catch(Exception e)
