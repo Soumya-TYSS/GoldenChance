@@ -17,8 +17,9 @@ public class SelectQueryTest {
 		//connect to the database
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/students","root","root");
 		System.out.println("connection is done");
-		System.out.println("added by chandan");
+		System.out.println("added by chandu");
 		System.out.println("This statment is added by sanjay");
+		
 		//create query statemnet
 		Statement stat = conn.createStatement();
 		//execute the query
@@ -32,6 +33,7 @@ public class SelectQueryTest {
 		}
 		catch(Exception e)
 		{
+			
 			
 		}
 		finally
