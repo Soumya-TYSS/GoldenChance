@@ -25,6 +25,7 @@ public class SelectQueryTest {
 		while(result.next())
 		{
 			System.out.println(result.getInt(1) + "\t" + result.getString(2));
+			System.out.println("updation by divya..");
 		}
 		}
 		catch(Exception e)
