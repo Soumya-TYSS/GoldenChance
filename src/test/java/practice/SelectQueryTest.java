@@ -22,6 +22,7 @@ public class SelectQueryTest {
 		System.out.println("Another statment added by sanjay.");
 		//create query statemnet
 		Statement stat = conn.createStatement();
+		System.out.println("i have changed finally");
 		//execute the query
 		try {
 		ResultSet result = stat.executeQuery("select * from students_info");
